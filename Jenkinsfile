@@ -8,7 +8,7 @@ pipeline{
         }
         stage("execute"){
             steps{
-                sh 'mv java -jar target/*.jar target/jenkinsfile.jar'
+                sh 'java -jar java-project2.jar'
             }
         }
     }
