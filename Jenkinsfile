@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage("build"){
             steps{
-                sh 'mvn install'
+                 bat'mvn install'
             }
         }
         stage("execute"){
             steps{
-                sh 'java -jar java-project2-1.0-SNAPSHOT.jar'
+                bat 'java -jar java-project2-1.0-SNAPSHOT.jar'
             }
         }
     }
