@@ -8,7 +8,7 @@ pipeline{
         }
         stage("execute"){
             steps{
-                sh 'java -jar java-project2.jar'
+                sh 'java -jar java-project2-1.0-SNAPSHOT.jar'
             }
         }
     }
